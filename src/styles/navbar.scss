@@ -1,0 +1,88 @@
+#opaque {
+	background-color: #E44D26;
+}
+
+.navbar {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	overflow: scroll;
+	width: calc(100% - 4rem);
+	padding: 1.5rem 2rem;
+	transition: 0.2s;
+	z-index: 69;
+
+	#title {
+		flex-basis: 30%;
+		flex-grow: 0;
+		flex-shrink: 1;
+		@media (max-width: 900px) {
+			display: none;
+		}
+	}
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	.navbuttons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		flex-basis: 40%;
+		flex-grow: 0;
+		flex-shrink: 1;
+	}
+
+	.socialbuttons {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		flex-direction: row;
+		flex-basis: 30%;
+		flex-grow: 0;
+		flex-shrink: 1;
+	}
+	
+	.navoption, .socialoption {
+		background: rgba(0, 0, 0, 0);
+		border: rgba(0, 0, 0, 0);
+		border-radius: 5px;
+		cursor: pointer;
+		padding: 0.4rem 1rem;
+		margin: 0.2rem;
+		position: relative;
+		transition: 0.2s;
+		font: inherit;
+		font-size: 1.5rem;
+		svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+	.socialoption {
+		display: inline-block;
+		width: 2.5rem;
+		padding: 0.4rem;
+		margin: 0.2rem 0.4rem;
+		height: 2.5rem;
+	}
+
+	.navoption:hover, .socialoption:hover {
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+
+	.navoption::before, .socialoption::before {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: inherit;
+		z-index: 2;
+	}
+}

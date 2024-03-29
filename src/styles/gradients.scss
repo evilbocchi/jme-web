@@ -1,0 +1,15 @@
+@mixin g {
+    background-clip: text !important;
+    color: transparent;
+}
+
+#g1 {
+    @include g;
+    background: linear-gradient(90deg, #E44D26, #F16529);
+}
+
+#g2 {
+    @include g;
+    background: linear-gradient(90deg, #200122, #6f0000);
+}
+
