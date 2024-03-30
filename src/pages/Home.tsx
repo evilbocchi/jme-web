@@ -38,20 +38,17 @@ const Home = () => {
         <h1 id="g1">Find Unlimited Wealth</h1>
         
         <ContentBlock>
+          <SideContent>
+            <img src="c1.png" width="80%"></img>
+          </SideContent>
           <MainContent id="text-left">
             <h2>Build Your Empire</h2>
             <p>Start from $1. Use whatever you have at your disposal to build upon your wealth.</p>
             <p>Find ways to generate more money as the game becomes progressively harder.</p>
           </MainContent>
-          <SideContent>
-            <img src="c1.png" width="80%"></img>
-          </SideContent>
         </ContentBlock>
         <Separator></Separator>
         <ContentBlock>
-          <SideContent>
-            <img src="c1.png" width="80%"></img>
-          </SideContent>
           <MainContent id="text-left">
             <h2>Buy The Difficulties</h2>
             <p>Get from The First Difficulty all the way to The Final Difficulty.</p>
@@ -59,23 +56,26 @@ const Home = () => {
             <p>⠀</p>
             <p>Brave through numerous different mechanics, ranging from resetting your progress to gain boosts to adventuring through the map, finding new paths to multiply your money.</p>
           </MainContent>
+          <SideContent>
+            <img src="c2.png" width="80%"></img>
+          </SideContent>
         </ContentBlock>
         <Separator></Separator>
         <ContentBlock>
+          <SideContent>
+            <img src="c3.png" width="80%"></img>
+          </SideContent>
           <MainContent id="text-left">
             <h2>An Equal Mission</h2>
             <p>Whether you're going solo or playing with friends, you can aim for the stars.</p>
             <p>Reach the top and cement your name in history as a capitalistic overlord.</p>
           </MainContent>
-          <SideContent>
-            <img src="c1.png" width="80%"></img>
-          </SideContent>
         </ContentBlock>
         <Separator></Separator>
         <h1 id="g2">Play The Game</h1>
           <ContentBlock>
             <SideContent>
-              <img src="c1.png" width="80%"></img>
+              <img src="g4.png" width="80%"></img>
             </SideContent>
             <MainContent id="text-left">
               <h2>Open Beta Access</h2>
